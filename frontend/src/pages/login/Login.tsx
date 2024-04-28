@@ -1,9 +1,14 @@
 import React from 'react'
 import { MainLayout } from '../../layout/mainLayout/MainLayout'
+import { Container } from 'react-bootstrap'
 
 const Login = () => {
   return (
-    <MainLayout>Login</MainLayout>
+    <MainLayout>
+      <Container>
+        Login
+      </Container>
+    </MainLayout>
   )
 }
 
