@@ -1,7 +1,13 @@
 .span-color{
-    color:rgb(97, 83, 223)
+    color:rgb(97, 83, 223);
+    font-style: italic;
 }
 
-.main-row{
-    height: 70vh;
+.span-color:hover{
+    text-decoration: underline;
+
+}
+
+.dash-container{
+    height: 80vh;
 }

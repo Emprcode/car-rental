@@ -2,16 +2,16 @@ import { Button } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
+import "./Header.css"
 
 export const Header = ()=> {
   return (
-    <Navbar collapseOnSelect expand="md">
+    <Navbar collapseOnSelect expand="md" className='head'>
       <Container className='p-3'>
         <Navbar.Brand href="#home">
           <span>
-            <h1>
+            <h1 className='fw-bold'>
           Car Rental
 
             </h1>

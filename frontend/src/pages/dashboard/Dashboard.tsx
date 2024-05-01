@@ -11,49 +11,38 @@ const Dashboard = () => {
   return (
     <MainLayout>
       <Container>
-        <Row className=''>
-        <Col className='car mt-5 col-sm-6'>
-            <img src={car} alt="car" width="100%"/>
-
+        <Row className='dash-container d-flex align-items-center flex-wrap gap-3'>
+          <Col col={6}>
+          <div className='text-center '>
+            <img src={car} alt="car" width="110%" />
+          </div>
           </Col>
-        <Col className='d-flex justify-content-center align-items-center col-md-6'>
-          <div>
-            <h1 className='fw-bold p-3'>Your destination for renting your <br /> favourite car in <span className='span-color'>Easy</span> steps.</h1>
-            <div className='p-2 mt-3'>
-              <Col>
-              <span>
-<IoCarSportSharp size={30}/>
-              </span> {" "}
-              Offer a diverse range of vehicles beyond Vintage, luxury and eco-friendly.</Col>
-              <Col className='mt-2 mb-2'>
-
-<span>
-<FaShieldHeart size={30}/>
-</span>{" "}
-
-              Create immersive rental experiences with themed vehicles
-              </Col>
-              <Col>
-
-              <span>
-
-<TbColorSwatch size={30}/>
-
-              </span>{" "}
-              Provide customized services allowing customers to personalize rental experience 
-              </Col>
+          <Col className='col-md-6 gap-3'>
+          <h1 className='fw-bold p-2'>
+            Rent a car from <span className='span-color'> $99/day</span>
+          </h1>
+          <div className=' p-2 mx-3'>
+            <div>
+            <p> <IoCarSportSharp size={25}/> {" "}
+          Offers diverse range of vehicles </p>
             </div>
-          <div className='d-flex justify-content-end p-3 badge-pill'>
-            <Button className='badge-pill'>Explore</Button>
+            <div>
+
+            
+            <p> <FaShieldHeart size={25}/> { " "}
+           Outstanding service</p>
+            </div>
+            <div>
+
+            
+            <p>  <TbColorSwatch size={25}/>{" "}
+           Anywhere and Anytime</p>
+            </div>
           </div>
-          </div>
+          
           
           </Col>
-         
-          
         </Row>
-
-        ssd
       </Container>
     </MainLayout>
   )
