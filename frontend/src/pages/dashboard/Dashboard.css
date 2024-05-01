@@ -9,5 +9,9 @@
 }
 
 .dash-container{
-    height: 80vh;
+    height: 75vh;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
 }
