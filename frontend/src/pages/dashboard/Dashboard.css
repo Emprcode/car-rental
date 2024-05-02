@@ -9,7 +9,7 @@
 }
 
 .dash-container{
-    height: 75vh;
+    min-height: 75vh;
 }
 .title{
     font-size: 50px;
