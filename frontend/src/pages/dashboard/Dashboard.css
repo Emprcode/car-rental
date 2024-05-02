@@ -1,0 +1,17 @@
+.span-color{
+    color:rgb(97, 83, 223);
+    font-style: italic;
+}
+
+.span-color:hover{
+    text-decoration: underline;
+
+}
+
+.dash-container{
+    min-height: 75vh;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
