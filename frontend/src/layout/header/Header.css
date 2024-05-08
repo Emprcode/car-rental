@@ -1,3 +1,9 @@
-.head{
-    background: #aabfda2a;
+.head {
+  background: #aabfda2a;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-style: normal;
 }

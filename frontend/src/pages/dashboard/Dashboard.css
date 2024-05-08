@@ -1,17 +1,20 @@
-.span-color{
-    color:rgb(97, 83, 223);
-    font-style: italic;
+.span-color {
+  color: rgb(97, 83, 223);
+  font-style: italic;
 }
 
-.span-color:hover{
-    text-decoration: underline;
-
+.span-color:hover {
+  text-decoration: underline;
 }
 
-.dash-container{
-    min-height: 75vh;
+.dash-container {
+  min-height: 75vh;
 }
-.title{
-    font-size: 50px;
-    font-weight: bold;
+.title {
+  font-size: 50px;
+  font-family: 'Poetsen One', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-weight: bold;
 }

@@ -5,6 +5,7 @@ import { FaPlus } from 'react-icons/fa'
 import './Homepage.css'
 import { CarBookingTable } from '../../components/tableComponents/CarBookingTable'
 import { Link } from 'react-router-dom'
+import { AddCarModal } from '../../components/modal/AddCarModal'
 
 const Homepage = () => {
   return (
@@ -13,15 +14,15 @@ const Homepage = () => {
         <Container className='p-3'>
           <div className='d-flex justify-content-between align-items-center p-3'>
             <div className='h2 fw-bold'>Welcome to car rental </div>
-            <Link
+            {/* <Link
               to='/add-cars'
               className='fw-bold d-flex justify-content-center align-items-center gap-2 nav-link'
             >
               <span className='shadow-lg p-2'>
                 <FaPlus />
-              </span>
-              Add cars{' '}
-            </Link>
+              </span> */}
+            {/* <AddCarModal /> */}
+            {/* </Link> */}
           </div>
 
           <Row className='p-4 gap-5 text-light'>
