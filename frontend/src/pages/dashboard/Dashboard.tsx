@@ -12,13 +12,13 @@ const Dashboard = () => {
   return (
     <MainLayout>
       <Container>
-        <Row className='dash-container d-flex align-items-center flex-wrap gap-5'>
-          <Col col={6}>
+        <Row className='dash-container d-flex justify-content-center align-items-center flex-wrap gap-5'>
+          <Col className=''>
             <div className='text-center p-2'>
               <img src={car} alt='car' width='110%' />
             </div>
           </Col>
-          <Col className='col-md-6 p-2 mx-3 '>
+          <Col className='p-2 mx-3 '>
             <h1 className='mt-3 title'>
               Save Big and Rent a car from <span className='span-color'> $99/day</span>
             </h1>
@@ -44,10 +44,10 @@ const Dashboard = () => {
             </div>
 
             <div className='d-flex justify-content-start align-items-center gap-4'>
-              <Button variant='info' className='fw-bold p-2 text-light' size='lg'>
+              {/* <Button variant='info' className='fw-bold p-2 text-light' size='lg'>
                 <span className='mx-5 text-center'>Book Now</span>
-              </Button>
-              <Button variant='outline-dark' className='fw-bold p-2' size='lg'>
+              </Button> */}
+              <Button variant='outline-dark' className='fw-bold p-2' size='lg' href='#cars'>
                 <span className='mx-5'>Explore</span>
               </Button>
             </div>
@@ -55,7 +55,9 @@ const Dashboard = () => {
         </Row>
 
         <div>
-          <h2 className='fw-bold'>Most Popular Cars</h2>
+          <h2 className='fw-bold' id='cars'>
+            Most Popular Cars
+          </h2>
         </div>
         <Row className='p-3'>
           <Col className='d-flex justify-content-center align-items-center gap-5 flex-wrap'>
