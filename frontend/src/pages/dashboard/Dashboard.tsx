@@ -12,13 +12,13 @@ const Dashboard = () => {
   return (
     <MainLayout>
       <Container>
-        <Row className='dash-container d-flex align-items-center flex-wrap gap-5'>
-          <Col col={6}>
+        <Row className='dash-container d-flex justify-content-center align-items-center flex-wrap gap-5'>
+          <Col className=''>
             <div className='text-center p-2'>
               <img src={car} alt='car' width='110%' />
             </div>
           </Col>
-          <Col className='col-md-6 p-2 mx-3 '>
+          <Col className='p-2 mx-3 '>
             <h1 className='mt-3 title'>
               Save Big and Rent a car from <span className='span-color'> $99/day</span>
             </h1>

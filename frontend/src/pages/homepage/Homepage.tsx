@@ -11,7 +11,7 @@ const Homepage = () => {
   return (
     <MainLayout>
       <div>
-        <Container className='p-3'>
+        <Container className='p-2'>
           <div className='d-flex justify-content-between align-items-center p-3'>
             <div className='h2 fw-bold'>Welcome to car rental </div>
             {/* <Link
@@ -66,9 +66,9 @@ const Homepage = () => {
               </div>
             </Col>
           </Row>
-          <div className='mt-3 p-3'>
+          <Row className='mt-3'>
             <CarBookingTable />
-          </div>
+          </Row>
         </Container>
       </div>
     </MainLayout>
