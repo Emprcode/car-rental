@@ -13,7 +13,7 @@ const Dashboard = () => {
     <MainLayout>
       <Container>
         <Row className='dash-container d-flex justify-content-center align-items-center flex-wrap gap-5'>
-          <Col className=''>
+          <Col className='col-6'>
             <div className='text-center p-2'>
               <img src={car} alt='car' width='110%' />
             </div>
